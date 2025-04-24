@@ -8,8 +8,8 @@ function App() {
   return (
     <>
       <div>
-        <h1>Hello World Paz  https://api-ecommerce.ed.team/api/v1</h1>
-        <p>Este es el sitio de desarrollo</p>
+        <h1>Hello World Paz  </h1>
+        <p>https://api-ecommerce.ed.team/api/v1</p>
       </div>
     </>
   )
