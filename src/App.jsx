@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <div>
-        <h1>Hello World</h1>
+        <h1>Hello World Paz  https://api-ecommerce.ed.team/api/v1</h1>
         <p>Este es el sitio de desarrollo</p>
       </div>
     </>
