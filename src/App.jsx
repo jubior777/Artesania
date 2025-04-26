@@ -1,18 +1,16 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./components/Home";
-import Products from "./components/Products"; // Ajusta la ruta de Products.jsx
-import MainHeader from "./components/MainHeader";
+import { API_URL } from "./components/pages/MainHeader"; // Ajusta la ruta de MainHeader.jsx
+import MainHeader from "./components/pages/MainHeader"; // Ajusta la ruta de MainHeader.jsx
 
 function App() {
   return (
-    <Router>
-      <MainHeader />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/productos" element={<Products />} />
-      </Routes>
-    </Router>
+    <>
+      <MainHeader/>
+      <div>
+        <h1>Hola  {API_URL}</h1>
+        <p>Este es el sitio de desarrollo</p>
+      </div>
+    </>
   );
 }
 
