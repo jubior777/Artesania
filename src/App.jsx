@@ -1,5 +1,5 @@
 import React from "react";
-import { API_URL } from "./components/pages/MainHeader"; // Ajusta la ruta de MainHeader.jsx
+import {API_URL} from "../../constants/env"; // Ajusta la ruta de env.js
 import MainHeader from "./components/pages/MainHeader"; // Ajusta la ruta de MainHeader.jsx
 
 function App() {
