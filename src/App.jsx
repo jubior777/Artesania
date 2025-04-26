@@ -1,18 +1,20 @@
 import React from "react";
-import{API_URL} from "../env"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./components/Home";
+import Products from "../src/Products";
+import MainHeader from "./components/MainHeader";
+import './App.css';
 
-import './App.css'
 
 function App() {
-
   return (
-    <>
-      <div>
-        <h1>Hello World  {API_URL}</h1>
-        <p>Este es un sitio de desarrollo</p>
-      </div>
-    </>
-  )
+    <Router>
+      <MainHeader /> 
+        <Route path="/" element={<Home />} />
+        <Route path="/productos" element={<Products />} />
+    </Router> 
+  );
 }
 
-export default App
+export default App;
+
