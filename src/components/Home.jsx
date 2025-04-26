@@ -1,11 +1,15 @@
 import React from "react";
-import Products from "./Products"; // Adjust the path if needed
+import Products from "./Products"; // Asegúrate de que la ruta sea correcta
 
 const HomePage = () => {
   return (
     <div>
-      <h1>Bienvenido</h1>
-      <p>Explora nuestros productos.</p>
+      <ul>
+        <li>Inicio</li>
+        <li>Producto</li>
+        <li>Contactos</li>
+      </ul>
+      <Products /> {/* Aquí se utiliza el componente Products */}
     </div>
   );
 };

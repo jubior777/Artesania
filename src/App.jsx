@@ -1,18 +1,18 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
-import Products from "../src/Products";
+import Products from "./components/Products"; // Ajusta la ruta de Products.jsx
 import MainHeader from "./components/MainHeader";
-import './App.css';
-
 
 function App() {
   return (
     <Router>
-      <MainHeader /> 
+      <MainHeader />
+      <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/productos" element={<Products />} />
-    </Router> 
+      </Routes>
+    </Router>
   );
 }
 

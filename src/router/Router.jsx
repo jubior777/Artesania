@@ -1,12 +1,13 @@
+import React from "react"; // Importa React para usar JSX
 import { createBrowserRouter } from "react-router-dom";
 import Home from "../components/Home";
 import Error404 from "../components/Error404";
-import Products from "../Products";
+import Products from "../components/Products";
 
 
-const router = createBrowserRouter([
-    {  
-        path: "/",
+const appRouter = createBrowserRouter([
+    { 
+        path: "/", 
         element: <Home />,
         errorElement: <Error404 />,
     },
@@ -16,4 +17,4 @@ const router = createBrowserRouter([
     }
 ]);
 
-export default router;
+export default appRouter;
