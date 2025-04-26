@@ -1,14 +1,15 @@
 import React from "react"; // Importa React para usar JSX
 import { createBrowserRouter } from "react-router-dom";
-import Home from "../components/Home";
+import App from "../App"; // Importa el componente principal de la aplicación
 import Error404 from "../components/Error404";
 import Products from "../components/Products";
+
 
 
 const appRouter = createBrowserRouter([
     { 
         path: "/", 
-        element: <Home />,
+        element: <App />,
         errorElement: <Error404 />,
     },
     { 
