@@ -9,10 +9,10 @@ const MainHeader = () => {
       <nav>
         <ul>
           <li>
-            <a href="">Inicio</a>
-            <a href="">Productos</a>
-            <a href="">Ofertas</a>
-            <a href="">Contacto</a>
+            <ul><a href="">Inicio</a></ul>
+            <ul><a href="">Productos</a></ul>
+            <ul><a href="">Ofertas</a></ul>
+            <ul><a href="">Contacto</a></ul>
           </li>
         </ul>
       </nav>
