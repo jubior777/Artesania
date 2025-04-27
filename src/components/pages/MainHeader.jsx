@@ -1,21 +1,14 @@
 import React from "react";
+import MainMenu from "../moleculas/MainMenu";
+import Logo from "../moleculas/Logo";
 
 
 
 const MainHeader = () => {
   return (
     <div>
-      <div>LOGO</div>
-      <nav>
-        <ul>
-          <li>
-            <ul><a href="">Inicio</a></ul>
-            <ul><a href="">Productos</a></ul>
-            <ul><a href="">Ofertas</a></ul>
-            <ul><a href="">Contacto</a></ul>
-          </li>
-        </ul>
-      </nav>
+      <Logo/>
+      <MainMenu/>
     </div>
   );
 };

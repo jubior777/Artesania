@@ -14,4 +14,15 @@ function App() {
 }
 
 export default App;
+function TestTailwind() {
+  return (
+    <div className="bg-blue-500 text-white p-5 rounded-lg">
+      ¡TailwindCSS está funcionando!
+    </div>
+  );
+}
+
+export { TestTailwind };
+
+
 
